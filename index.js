@@ -148,7 +148,7 @@ for (let i = 0; i < sayilar.length; i++) {
     }
   tekrarSayilari[sayilar[i]] = duplicateCount;
   if (tekrarSayilari[sayilar[i]] !== 1){
-    tekraredensayilar.push(`${sayilar[i]} sayısı ${tekrarSayilari[sayilar[i]]} tekrar edilmiştir`);
+    tekraredensayilar.push(`${sayilar[i]} sayısı ${tekrarSayilari[sayilar[i]]} kere tekrar edilmiştir`);
   }
 }
 console.log(tekraredensayilar);

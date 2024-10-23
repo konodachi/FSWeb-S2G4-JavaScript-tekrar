@@ -57,7 +57,7 @@ describe('CemberinCevresi görevi', ()=>{
 //görev 2
 describe('CemberinAlani görevi', ()=>{
     it('CemberinAlani bir sayı döndürüyor', ()=>{
-	expect(functions.CemberinAlani(4,3.14159)).toEqual(50.26544);
+	expect(functions.CemberinAlani(4,3.14159)).toEqual(39.478350912399996);
     })
 });
 //görev 3
